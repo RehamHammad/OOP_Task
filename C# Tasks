@@ -1,0 +1,83 @@
+//Task1
+// Console.WriteLine("Enter a string");
+// var str=Console.ReadLine();
+// char[] copy=str.ToCharArray();
+// for(var i=copy.Length-1;i>-1;i--){
+//     Console.Write(copy[i]);
+// }
+//________________________________________
+//Task2
+// Console.WriteLine("Enter a string");
+// var str=Console.ReadLine();
+// int count=0;
+// char[] copy=str.ToCharArray();
+// for(var i=0;i<copy.Length;i++){
+//    if(copy[i]=='a'){
+//     count++;
+//    }
+// }
+// Console.Write(count);
+//__________________________________________
+//Task3
+// Console.WriteLine("Enter a string");
+//  var str=Console.ReadLine();
+//  int last=0;
+//  char[] copy=str.ToCharArray();
+//  for(int i=copy.Length-1;i>=0;i--){
+//     if(copy[i]=='a'){
+//         last=i;
+//         break;
+//     }
+//  }
+//   Console.Write(last);
+//__________________________________________
+//Task4
+//  Console.WriteLine("Enter a string");
+//  var str=Console.ReadLine();
+//  char[] copy=str.ToCharArray();
+//  for(int i=0;i<copy.Length;i++){
+//     if(copy[i]=='a'){
+//         continue;
+//     }else
+//     {
+//       Console.Write(copy[i]);
+//     }
+//  }
+//__________________________________________
+//Task5
+// Console.WriteLine("Enter a string");
+//  var str=Console.ReadLine();
+//  char[] copy=str.ToCharArray();
+//  for(int i=0;i<copy.Length;i++){
+//     if(copy[i]=='a'){
+//        Console.Write(copy[i]);
+//        Console.Write(0);
+//     }else
+//     {
+//       Console.Write(copy[i]);
+//     }
+//  }
+//_______________________________________
+//Task6
+// Console.WriteLine("Enter a string");
+//  var str=Console.ReadLine();
+//  int count=0;
+//  for(int i=0;i<str.Length;i++){
+//     if(str[i]>='a'&&str[i]<='z'||str[i]>='A'&&str[i]<='Z'){
+//         continue;
+//     }else{
+//      count++;
+//     }
+//  }
+//  Console.Write(count);
+//__________________________________________
+//Task7
+// Console.WriteLine("Enter string");
+// var str=Console.ReadLine();
+// for(int i=0;i<str.Length/2;i++){
+//     if(str[i]==str[str.Length-1-i]){
+//         Console.Write("Palindrom");
+//     }else{
+//          Console.Write("Not Palindrom");
+//     }
+// }
